@@ -4,4 +4,4 @@ custom app developed on frappe
 
 #### License
 
-MIT
+MIT# k2s_hr
