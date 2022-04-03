@@ -45,7 +45,8 @@ function create_check_out_btn(frm){
                 if(rsp.message){
                     console.log("rsp.message is: ",rsp.message)
                     frappe.msgprint(`Employee Checkout ${rsp.message} created`)
-                    //frm.clear_custom_buttons();
+                    frm.clear_custom_buttons();
+                    create_check_in_btn(frm)
                 }
             }
         })
